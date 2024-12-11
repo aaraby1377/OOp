@@ -1,0 +1,159 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* For Webkit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track color (the background of the scrollbar) */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222639; /* Thumb color (the draggable part of the scrollbar) */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #222639; /* Thumb color on hover */
+}
+
+body {
+  background-image: url(./webbk.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; /* Optional: You can adjust the background size as needed */
+}
+/* Style the navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222639;
+  color: white;
+  padding: 1px 20px;
+  font-size: 25px;
+}
+
+/* Style the logo */
+.logo img {
+  height: 50px; /* Adjust the height as needed */
+}
+
+/* Style the center links */
+.center-links ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.center-links li {
+  margin: 0 20px; /* Adjust the spacing between links */
+}
+
+.center-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Style the user profile icon */
+.user-profile img {
+  height: 50px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* Add hover effect to links */
+.center-links a:hover {
+  color: #5ab7e9;
+}
+
+/*nav bar end*/
+
+.background {
+  background-image: url(bk.png);
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Style the footer container */
+footer {
+  background-color: #222639;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Style the footer content */
+.footer-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Style the copyright text */
+.footer-content p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.topic-uplode {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 50px;
+}
+
+button {
+  background-color: #00a6ff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0 25px 0 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5ab7e9;
+}
+
+table {
+  background-color: white;
+  padding: 25px;
+  width: 800px;
+  padding: 25px;
+  border-radius: 10px;
+}
+td {
+  width: 400px;
+}
+.backfrm {
+  width: 400px;
+}
+input {
+  width: 100%;
+  height: 35px;
+  padding: 2px 5px;
+  font-size: 15px;
+  margin: 8px 0 10px 0;
+}
+label {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.button-form {
+  text-align: center;
+}
+
+.container{
+  margin-left: 380px;
+  margin-top: 50px;
+}
